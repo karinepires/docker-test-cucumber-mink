@@ -1,4 +1,5 @@
 
+'''
 # After cloning this repository
 
 cd cli
@@ -10,3 +11,4 @@ cd ../support
 docker build -t testcucumberminksupport .
 docker run --name testcminksup -d testcucumberminksupport
 docker logs -f testcminksup
+'''
